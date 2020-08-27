@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    /* background-color: #131921; */
+    align-items: center;
+    background-color: black;
+}
+
+.headerLogo{
+    width: 60px;
+    margin: 18px 20px 15px 40px;
+}
+.headerNav{
+    display: flex;
+    margin-left: auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.headerLink{
+    color: white;
+    text-decoration: none;
+}
+.headerOption{
+    display: flex;
+}
+.navBTN{
+    padding:8px !important;
+    margin: 5px;
+}
+.navCart{
+    font-size: 25px !important;
+    color: white;
+    margin-left: 30px;
+}
+.cartCount{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px !important;
+    margin-right: 20px !important;
+}
+.checkout{
+    display: flex;
+}

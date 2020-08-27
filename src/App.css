@@ -1,0 +1,17 @@
+*{
+  margin:0;
+}
+
+.xcontainer{
+  margin: 70px;
+  background-color: #F4F6FC !important;
+}
+.modal-header{
+  padding: 0 !important;
+  margin-top: 0 !important;
+}
+.close > span{
+  margin: 20px !important;
+  margin-bottom: 0 !important;
+  font-size:40px !important;
+}
