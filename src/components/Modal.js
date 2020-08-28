@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import './Modal.css';
-import Table from './Table';
+import Processor from './Items/Processor';
 
 const Modals = (props) => {
   const {
@@ -18,7 +18,7 @@ const Modals = (props) => {
       <Modal isOpen={modal} toggle={toggle} className='xmodal'>
         <ModalHeader className="mHeader" toggle={toggle}></ModalHeader>
         <ModalBody>
-            <Table/>
+            <Processor/>
         </ModalBody>
         <ModalFooter>
           <Button color="primary" onClick={toggle}>Do Something</Button>{' '}

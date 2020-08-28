@@ -8,10 +8,14 @@
     "@testing-library/user-event": "^7.2.1",
     "argon-dashboard-react": "^1.1.0",
     "firebase": "^7.19.0",
+    "match-sorter": "^4.2.0",
+    "namor": "^2.0.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "react-table": "^7.5.0",
+    "styled-components": "^5.1.1"
   },
   "scripts": {
     "start": "react-scripts start",

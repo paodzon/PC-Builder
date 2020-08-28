@@ -1,19 +1,8 @@
 import React from "react";
 // reactstrap components
 import {
-    Badge,
-    DropdownMenu,
-    DropdownItem,
-    UncontrolledDropdown,
-    DropdownToggle,
     Media,
-    Progress,
     Table,
-    UncontrolledTooltip,
-    PaginationItem,
-    PaginationLink,
-    Pagination,
-    CardFooter,
     Row,
     Card,
     Button,
@@ -77,7 +66,7 @@ class Tables extends React.Component {
                                             </Media>
                                         </th>
                                         <td>
-                                        <Button color='primary' className="chooseBTN">Choose a Motherboard</Button>
+                                        <Modal buttonLabel="Choose a Motherboard"></Modal>
                                         </td>
                                         <td></td>
                                         <td></td>
@@ -96,7 +85,7 @@ class Tables extends React.Component {
                                             </Media>
                                         </th>
                                         <td>
-                                        <Button color='primary' className="chooseBTN">Choose a Memory</Button>
+                                        <Modal buttonLabel="Choose a Memory"></Modal>
                                         </td>
                                         <td></td>
                                         <td></td>
@@ -115,7 +104,7 @@ class Tables extends React.Component {
                                             </Media>
                                         </th>
                                         <td>
-                                        <Button color='primary' className="chooseBTN">Choose a Storage</Button>
+                                        <Modal buttonLabel="Choose a Storage"></Modal>
                                         </td>
                                         <td></td>
                                         <td></td>
@@ -134,7 +123,7 @@ class Tables extends React.Component {
                                             </Media>
                                         </th>
                                         <td>
-                                        <Button color='primary' className="chooseBTN">Choose a Video Card</Button>
+                                        <Modal buttonLabel="Choose a Video Card"></Modal>
                                         </td>
                                         <td></td>
                                         <td></td>
@@ -153,7 +142,7 @@ class Tables extends React.Component {
                                             </Media>
                                         </th>
                                         <td>
-                                        <Button color='primary' className="chooseBTN">Choose a Power Supple Unit</Button>
+                                        <Modal buttonLabel="Choose a Power Supply Unit"></Modal>
                                         </td>
                                         <td></td>
                                         <td></td>
@@ -172,7 +161,7 @@ class Tables extends React.Component {
                                             </Media>
                                         </th>
                                         <td>
-                                        <Button color='primary' className="chooseBTN">Choose a Case</Button>
+                                        <Modal buttonLabel="Choose a Case"></Modal>
                                         </td>
                                         <td></td>
                                         <td></td>
@@ -191,7 +180,7 @@ class Tables extends React.Component {
                                             </Media>
                                         </th>
                                         <td>
-                                        <Button color='primary' className="chooseBTN">Choose your Peripherals</Button>
+                                        <Modal buttonLabel="Choose your Peripherals"></Modal>
                                         </td>
                                         <td></td>
                                         <td></td>
